@@ -54,3 +54,9 @@ var katzDeliLine = []
 currentLine(katzDeliLine)
 
 takeANumber(katzDeliLine, "Chris")
+
+currentLine(katzDeliLine)
+
+takeANumber(katzDeliLine, "Wilf")
+
+nowServing(katzDeliLine)
