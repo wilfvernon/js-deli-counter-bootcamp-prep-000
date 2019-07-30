@@ -21,7 +21,7 @@ function currentLine(line){
   var clone = line.slice(0)
   var current = [];
   var n = 0
-  var current = [];
+
   if (i === 0){
     console.log("The line is currently empty.")
     return "The line is currently empty."
@@ -34,8 +34,8 @@ function currentLine(line){
         current.push(` ` + (n+1) + '. ' + clone[0])
         clone.shift()
         console.log(current)
-=======
-    console.log(current)
+
+console.log(current)
     for (var n = 0; n > i; n++){
       if (n === line.length){
         console.log(current)
@@ -49,7 +49,6 @@ function currentLine(line){
   }
 }
 var katzDeliLine = ["Will", "Grace", "Johnny", "Mark"]
-=======
 var katzDeliLine = ["Will", "Grace", "Johnny"]
 
 currentLine(katzDeliLine)
