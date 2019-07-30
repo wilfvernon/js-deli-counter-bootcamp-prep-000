@@ -60,3 +60,7 @@ currentLine(katzDeliLine)
 takeANumber(katzDeliLine, "Wilf")
 
 nowServing(katzDeliLine)
+
+takeANumber(katzDeliLine, "Tian")
+
+currentLine(katzDeliLine)
