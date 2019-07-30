@@ -33,7 +33,7 @@ function currentLine(line){
       } else {
         current.push(` ` + (n+1) + '. ' + clone[0])
         clone.shift()
-        console.log(current)}
+        }
     }
 
 console.log(current)
