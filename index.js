@@ -48,8 +48,7 @@ console.log(current)
     }
   }
 }
-var katzDeliLine = ["Will", "Grace", "Johnny", "Mark"]
-var katzDeliLine = ["Will", "Grace", "Johnny"]
+var katzDeliLine = []
 
 currentLine(katzDeliLine)
 
