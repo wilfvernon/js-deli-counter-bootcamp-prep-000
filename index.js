@@ -18,13 +18,18 @@ function nowServing(line){
 
 function currentLine(line){
   var i = line.length;
+<<<<<<< HEAD
   var clone = line.slice(0)
   var current = [];
   var n = 0
+=======
+  var current = [];
+>>>>>>> b5570121716acdfeea73f1920dec1ab89218c9ce
   if (i === 0){
     console.log("The line is currently empty.")
     return "The line is currently empty."
   } else {
+<<<<<<< HEAD
     for (n = 0; n <= i; n++){
       if (i === n){
         console.log("The line is currently:" + current)
@@ -33,9 +38,24 @@ function currentLine(line){
         current.push(` ` + (n+1) + '. ' + clone[0])
         clone.shift()
         console.log(current)
+=======
+    console.log(current)
+    for (var n = 0; n > i; n++){
+      if (n === line.length){
+        console.log(current)
+        return current
+      } else {
+        current.push(n + '. ' + line[0])
+        console.log(current)
+        line.shift()
+>>>>>>> b5570121716acdfeea73f1920dec1ab89218c9ce
       }
     }
   }
 }
+<<<<<<< HEAD
 var katzDeliLine = ["Will", "Grace", "Johnny", "Mark"]
+=======
+var katzDeliLine = ["Will", "Grace", "Johnny"]
+>>>>>>> b5570121716acdfeea73f1920dec1ab89218c9ce
 currentLine(katzDeliLine)
