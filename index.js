@@ -53,11 +53,10 @@ function currentLine(line){
     }
   }
 }
-<<<<<<< HEAD
 var katzDeliLine = ["Will", "Grace", "Johnny", "Mark"]
 =======
 var katzDeliLine = ["Will", "Grace", "Johnny"]
->>>>>>> b5570121716acdfeea73f1920dec1ab89218c9ce
+
 currentLine(katzDeliLine)
 
 takeANumber(katzDeliLine, Chris)
